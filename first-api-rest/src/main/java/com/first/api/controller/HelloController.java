@@ -40,5 +40,11 @@ public class HelloController {
     public String saludar6(){
         return "Hola Mundo con REST en Spring Boot";
     }
+
+     //Este es el metodo 7
+     @GetMapping("/hello7")
+     public String saludar7(){
+         return "Hola Mundo con REST en Spring Boot";
+     }
 }
 
