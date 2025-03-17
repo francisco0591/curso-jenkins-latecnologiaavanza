@@ -35,7 +35,7 @@ public class HelloController {
     }
 
 
-    //Otro comentario de prueba
+    //Otro comentario de prueba 22
     @GetMapping("/hello6")
     public String saludar6(){
         return "Hola Mundo con REST en Spring Boot";
